@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.BoardController">
+   <children>
+      <Button fx:id="btOne" layoutX="556.0" layoutY="314.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btTwo" layoutX="606.0" layoutY="314.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btThree" layoutX="656.0" layoutY="314.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btFour" layoutX="556.0" layoutY="364.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btFive" layoutX="606.0" layoutY="364.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btSix" layoutX="656.0" layoutY="364.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btSeven" layoutX="556.0" layoutY="414.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btEight" layoutX="606.0" layoutY="414.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btNine" layoutX="656.0" layoutY="414.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Canvas fx:id="canvas" height="450.0" layoutX="14.0" layoutY="14.0" width="450.0" />
+      <Text fx:id="result" layoutX="554.0" layoutY="262.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations! You got it!" wrappingWidth="154.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
